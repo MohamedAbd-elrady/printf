@@ -1,0 +1,51 @@
+.TH _PRINTF 1 "September 2023" "Version 1.0" "User Commands"
+
+.SH NAME
+_printf - custom printf function
+
+.SH SYNOPSIS
+.B _printf
+[.I format]
+[.I arguments...]
+q
+.SH DESCRIPTION1
+The
+.B _printf
+function is a custom implementation of the printf function. It allows you to format and print text to the standard output.
+
+.SH OPTIONS
+.TP
+.BR format
+The format string specifying how to format the output.
+.TP
+.BR arguments...
+Optional arguments to be formatted according to the format string.
+
+.SH EXAMPLES
+Print a simple message: "Hello, world"
+.B
+.PP
+.B _printf
+"I am a custom printf function\n"
+
+.SH SEE ALSO
+.BR printf (3)
+
+.SH AUTHOR
+kamal & Mosa 
+
+.SH REPORTING BUGS
+Please report bugs to: mmohammedabdelrady@gmail.com
+
+.SH COPYRIGHT
+Copyright © 2023 Your Company. This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+.SH NOTES
+This man page was created for demonstration purposes.
+
+.SH VERSION
+This is version 1.0 of _printf.
+
+.SH DATE
+September 2023
